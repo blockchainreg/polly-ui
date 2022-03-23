@@ -116,7 +116,7 @@ export const FarmList: React.FC = () => {
 			})
 	}, [farmsTVL, bao])
 
-	const BLOCKS_PER_YEAR = new BigNumber(2336000)
+	const BLOCKS_PER_YEAR = new BigNumber(13428766)
 
 	const [archived, showArchived] = useState(false)
 	const [staked, showStaked] = useState(false)
